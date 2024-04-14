@@ -28,18 +28,71 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg);
-  }
-}
-
 .column-container {
   display: flex;
   flex-direction: column;
   gap: 15px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: flex-start;
+}
+
+.element {
+  padding: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 15px;
+}
+
+label {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.product-info {
+  background-color: #f2f2f2;
+  padding: 10px;
+  border-radius: 3px;
+}
+
+.product-name,
+.product-calorie,
+.product-category {
+  display: block;
+  font-weight: bold;
+  color: #333;
+}
+
+input[type="text"] {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+button[type="submit"] {
+  padding: 10px;
+  background-color: #ff0000;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+div {
+  background-color: #f2f2f2;
+  padding: 10px;
+  border-radius: 3px;
+}
+
+span {
+  font-weight: bold;
+  color: #333;
 }

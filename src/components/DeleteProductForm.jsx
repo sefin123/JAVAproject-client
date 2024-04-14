@@ -32,17 +32,17 @@ const DeleteProductForm = () => {
 
   return (
     <form onSubmit={handleSubmit}>
-      <label>
-        name:
-        <input
-          type="text"
-          value={name}
-          onChange={(e) => setName(e.target.value)}
-        />
-      </label>
-      <br />
-      <button type="submit">delete foodstuff</button>
-    </form>
+  <label>
+    Name:
+    <input
+      type="text"
+      value={name}
+      onChange={(e) => setName(e.target.value)}
+    />
+  </label>
+  <br />
+  <button type="submit">Delete foodstuff</button>
+</form>
   );
 };
 

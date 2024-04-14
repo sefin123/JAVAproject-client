@@ -28,10 +28,10 @@ function App() {
             <div><UpdateProductForm/></div>,
           </Route>
           <Route exact strict path="/delete-product">
-            <div><DeleteProductForm/></div>,
+            <div className="element"><DeleteProductForm/></div>,
           </Route>
           <Route exact strict path="/">
-            <div className="column-container">
+            <div className="container">
               <a href="/products">List of products</a>
               <a href="/add-product">Add product</a>
               <a href="/put-product">Put product</a>

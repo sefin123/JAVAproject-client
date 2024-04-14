@@ -9,7 +9,7 @@ const ProductList = () => {
     getProducts().then(value => setProducts(value));
   }, []);
   return (
-    <div>
+    <div className="container">
       <h4>
         List of products
       </h4>

@@ -12,11 +12,11 @@ const ProductDetail = () => {
 
   }, [name]);
   return (
-    <div>
-      <span>
-        {product.name}:{product.calorie}
-      </span>
-    </div>
+  <div className="product-info">
+    <span className="product-name">Product: {product.name}</span>
+    <span className="product-calorie">Calorie: {product.calorie}</span>
+    <span className="product-category">Category: {product.category}</span>
+  </div>
   )
   
 }
